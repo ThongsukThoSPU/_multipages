@@ -1,0 +1,28 @@
+.carts-container{
+    /* border: solid 1px; */
+    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* height: 100vh;
+    width: 100vw; */
+    text-align: center;
+}
+
+.carts-items-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    overflow-y: auto;
+    height: 560px;
+    margin-left: 20px;
+    align-items: start;
+}
+
+.box4h{
+    margin-top: 10px;
+}
+
+.Checkout{
+    font-size: 25px;
+    margin-bottom: 10px;
+}

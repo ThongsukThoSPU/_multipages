@@ -1,0 +1,95 @@
+.box{
+    border: 1px solid;
+  }
+  
+  .calculator-container {
+    width: 300px;
+    background-color: #3597e7;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #00000033;
+  }
+  
+  .display {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .display input {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cecece;
+  }
+  
+  .calcu-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .calcu-num {
+    font-size: 24px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 93%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .screen {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(240, 238, 238);
+    min-height: 50px;
+    padding: 10px;
+    font-size: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    border: 2px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .screen .previous {
+    font-size: 15px;
+    color: rgba(34, 34, 34, 0.75);
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  .screen .current {
+    font-size: 20px;
+    color: black;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  .actions {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .actions button {
+    font-size: 24px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 93%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    background-color: #9f9f9f;
+  }
+  
+  .clear-btn {
+    grid-column: span 2;
+  }

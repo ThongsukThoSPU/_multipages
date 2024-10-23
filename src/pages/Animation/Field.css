@@ -1,0 +1,39 @@
+#container {
+    border: 1px solid black;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: ghostwhite;
+  }
+  
+  #field {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: burlywood;
+    background-position: center;
+    background-size: 100%;
+    width: 800px;
+    height: 500px;
+    position: relative;
+  }
+  
+  #ball {
+    position: absolute;
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #control{
+    margin: 10px;
+    /* border: 1px solid rgb(62, 23, 178); */
+}
+
+.ctrl-box{
+    float: right;
+}

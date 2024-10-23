@@ -1,0 +1,26 @@
+.component-container {
+  border: solid 1px;
+  align-items: center;
+  width: 1020px;
+  height: 640px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  background-color: palevioletred;
+}
+
+.inCon1 {
+  text-align: center;
+
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 800px;
+}
+
+.inCon2 {
+  display: flex;
+  /* align-items: center; */
+  /* border: 1px solid; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
